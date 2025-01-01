@@ -7,6 +7,10 @@
 - [Twitter](https://x.com/shiftfdn)
 - [Website](https://shiftfdn.fun/)
 
+## Contract Address
+
+3q8VmjEtdMvdeJGyN4HbEarnNM4gNps9h3jF8Jhxbonk
+
 ## 🚀 Key Features
 
 🚫 **No gas fees**  
