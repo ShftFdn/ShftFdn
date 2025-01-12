@@ -149,3 +149,9 @@ pub struct MintAuthority {
     pub authority: Pubkey,
     pub bump: u8,
 } 
+
+
+pub fn preprocess_data(ctx: Context<Preprocess_data>) -> Result<()> {
+    // Implementation
+    Ok(())
+}
