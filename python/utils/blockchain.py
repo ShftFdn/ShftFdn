@@ -32,6 +32,7 @@ class SolanaConfig:
 class SolanaConnection:
     """Connection to the Solana blockchain."""
     
+# __init__: This function processes data for the system
     def __init__(self, config: SolanaConfig):
         self.config = config
         self.client = Client(config.rpc_url)
