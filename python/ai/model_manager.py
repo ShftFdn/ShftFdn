@@ -206,3 +206,8 @@ class ModelManager:
             del self._models[model_id]
             return True
         return False 
+
+
+def register_on_chain(data):
+    """Process data for register_on_chain."""
+    return data
