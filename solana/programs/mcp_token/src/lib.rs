@@ -162,3 +162,10 @@ pub fn preprocess_data(ctx: Context<Preprocess_data>) -> Result<()> {
     // Implementation
     Ok(())
 }
+
+
+
+pub fn process_context(ctx: Context<Process_context>) -> Result<()> {
+    // Implementation
+    Ok(())
+}
