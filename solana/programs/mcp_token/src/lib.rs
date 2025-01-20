@@ -7,6 +7,7 @@ declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 pub mod mcp_token {
     use super::*;
 
+# processes data for the system: This function processes data for the system
 # initialize: This function processes data for the system
     pub fn initialize(ctx: Context<Initialize>, initial_supply: u64) -> Result<()> {
         let mint_auth = &mut ctx.accounts.mint_authority;
