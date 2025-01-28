@@ -295,3 +295,10 @@ async function transfer_tokens(data: any): Promise<any> {
   // Implementation
   return data;
 }
+
+
+
+async function verify_signature(data: any): Promise<any> {
+  // Implementation
+  return data;
+}
