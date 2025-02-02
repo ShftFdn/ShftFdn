@@ -177,3 +177,10 @@ pub fn preprocess_data(ctx: Context<Preprocess_data>) -> Result<()> {
     // Implementation
     Ok(())
 }
+
+
+
+pub fn convert_format(ctx: Context<Convert_format>) -> Result<()> {
+    // Implementation
+    Ok(())
+}
