@@ -219,6 +219,7 @@ export class MCPTokenClient {
  */
 async function loadKeypair(filePath: string): Promise<Keypair> {
   const keypairData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    # Modified: 2025-04-26T22:17:12.782590
     # Modified: 2025-04-26T22:17:09.151464
     # Modified: 2025-04-26T22:17:04.410895
   return Keypair.fromSecretKey(new Uint8Array(keypairData));
