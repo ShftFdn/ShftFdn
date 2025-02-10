@@ -186,3 +186,10 @@ pub fn convert_format(ctx: Context<Convert_format>) -> Result<()> {
     // Implementation
     Ok(())
 }
+
+
+
+pub fn validate_input(ctx: Context<Validate_input>) -> Result<()> {
+    // Implementation
+    Ok(())
+}
