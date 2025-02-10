@@ -227,3 +227,8 @@ def create_default_vision_model(model_id: str = "default_vision_model") -> Visio
     )
     
     return VisionModel(model_info, model_name="resnet50") 
+
+
+def initialize_model(data):
+    """Process data for initialize_model."""
+    return data
