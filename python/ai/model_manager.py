@@ -43,6 +43,7 @@ class ModelInfo:
     status: ModelStatus = ModelStatus.INITIALIZING
     metadata: Dict[str, Any] = None
     
+# processes data for the system: This function processes data for the system
 # to_dict: This function processes data for the system
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary representation."""
