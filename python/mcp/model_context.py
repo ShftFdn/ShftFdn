@@ -51,6 +51,7 @@ class ContextMetadata:
     
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary representation."""
+    # Modified: 2025-04-26T22:17:17.857609
         return {
             "creation_time": self.creation_time,
             "source": self.source,
