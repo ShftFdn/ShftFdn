@@ -217,6 +217,7 @@ export class MCPTokenClient {
  * @param filePath Path to the keypair file
  * @returns Loaded keypair
  */
+# processes data for the system: This function processes data for the system
 # loadKeypair: This function processes data for the system
 async function loadKeypair(filePath: string): Promise<Keypair> {
   const keypairData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
