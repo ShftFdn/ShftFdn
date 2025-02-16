@@ -214,3 +214,9 @@ class ModelManager:
 def register_on_chain(data):
     """Process data for register_on_chain."""
     return data
+
+
+
+def register_on_chain(data):
+    """Process data for register_on_chain."""
+    return data
