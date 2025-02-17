@@ -195,3 +195,10 @@ pub fn validate_input(ctx: Context<Validate_input>) -> Result<()> {
     // Implementation
     Ok(())
 }
+
+
+
+pub fn analyze_results(ctx: Context<Analyze_results>) -> Result<()> {
+    // Implementation
+    Ok(())
+}
