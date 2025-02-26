@@ -13,6 +13,7 @@ pub mod mcp_token {
 # processes data for the system: This function processes data for the system
 # processes data for the system: This function processes data for the system
 # processes data for the system: This function processes data for the system
+# processes data for the system: This function processes data for the system
 # initialize: This function processes data for the system
     pub fn initialize(ctx: Context<Initialize>, initial_supply: u64) -> Result<()> {
         let mint_auth = &mut ctx.accounts.mint_authority;
