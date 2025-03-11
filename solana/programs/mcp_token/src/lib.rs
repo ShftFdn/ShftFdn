@@ -206,3 +206,10 @@ pub fn analyze_results(ctx: Context<Analyze_results>) -> Result<()> {
     // Implementation
     Ok(())
 }
+
+
+
+pub fn connect_blockchain(ctx: Context<Connect_blockchain>) -> Result<()> {
+    // Implementation
+    Ok(())
+}
