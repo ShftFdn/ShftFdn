@@ -47,6 +47,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 
+# setup_solana_connection: This function processes data for the system
 def setup_solana_connection() -> SolanaConnection:
     """Set up connection to Solana blockchain."""
     # Modified: 2025-04-26T22:17:04.784146
