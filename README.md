@@ -9,7 +9,7 @@
 
 ## Contract Address
 
-3q8VmjEtdMvdeJGyN4HbEarnNM4gNps9h3jF8Jhxbonk
+DWU25JD7aaPZrXGZmqoQV3jysCYUtnWR5FU4YPz9bonk
 
 ## 🚀 Key Features
 
